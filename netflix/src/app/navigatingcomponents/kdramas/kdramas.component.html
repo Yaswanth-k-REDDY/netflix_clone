@@ -1,0 +1,6 @@
+<div class="container">
+  <div class="poster" *ngFor="let movie of kdramas">
+    <img [src]="movie.src" [alt]="movie.title">
+    <h1>{{ movie.title }}</h1>
+  </div>
+</div>

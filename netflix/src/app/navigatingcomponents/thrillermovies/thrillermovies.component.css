@@ -1,0 +1,29 @@
+.title{
+  padding: 0px 80px;
+}
+
+.posters{
+  display: flex;
+  overflow-x: scroll;
+  margin: 0px 80px;
+}
+
+.posters::-webkit-scrollbar {
+  display: none;
+}
+
+.poster:hover {
+  transform: scale(1.02);
+  transition: 220ms;
+}
+
+.poster h1{
+  text-align: center;
+  font-size: 1rem;
+}
+
+.poster img{
+  border-radius: 15px;
+  width: 200px;
+  margin: 0px 5px;
+}
